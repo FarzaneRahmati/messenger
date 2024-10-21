@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  direction: rtl;
+  color: #374151;
+}
+.transition-max-height {
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.max-h-0 {
+  max-height: 0;
+}
+
+.max-h-full {
+  max-height: 500px;
+}
